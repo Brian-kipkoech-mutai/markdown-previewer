@@ -1,11 +1,12 @@
- import MarkDownContainer from "./containers/markDownContainer";
- import { Provider } from "react-redux";
+
+import { Provider } from "react-redux";
  import store from "./redux/store";
+ import MarkedDownComponent from "./containers/MarkedDownComponent";
 
 function App() {
   return (
     <Provider store={store}>
-       <MarkDownContainer />
+      <MarkedDownComponent/>
     </Provider>
   );
 }

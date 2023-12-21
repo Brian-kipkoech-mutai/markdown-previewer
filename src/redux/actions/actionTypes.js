@@ -1,1 +1,6 @@
   export const INPUTSTORE=' INPUTSTORE'
+  export const  EDITOR='EDITOR'
+  export const MINIMIZE="MINIMIZE"
+  export const EXPANDPREVIEW="EXPANDPREVIEW"
+  export const MINIMIZEPREVIEW="MINIMIZEPREVIEW"
+
