@@ -1,7 +1,6 @@
-
 import { Provider } from "react-redux";
- import store from "./redux/store";
- import MarkedDownComponent from "./containers/MarkedDownComponent";
+import store from "./redux/store";
+import MarkedDownComponent from "./containers/MarkedDownComponent";
 
 function App() {
   return (
