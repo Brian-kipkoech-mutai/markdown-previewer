@@ -33,6 +33,9 @@ return(
          <div dangerouslySetInnerHTML={html.length<1?{ __html: userText}:{ __html: html }}  id='preview'></div>
         
         </div>    }
+        
+        <div id="developer"> Designed and coded  by : <a href="https://www.linkedin.com/in/brian-kipkoech-71b5b9248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9nnAF3gTQq2oeiliYkWdyA%3D%3D">Brian kipkoech</a></div>
+
           
     </div>
 )
